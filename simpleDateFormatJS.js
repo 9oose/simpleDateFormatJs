@@ -14,7 +14,7 @@ const simpleDateFormat = (inputDate) => {
     minute  = minute.length < 2 ? '0' + minute : minute;
     second  = second.length < 2 ? '0' + second : second;
 
-    const rtnDate = `${year}-${month}-${day} ${hour}:${minute}:${seconds}`;
+    const rtnDate = `${year}-${month}-${day} ${hour}:${minute}:${second}`;
 
     return rtnDate;
 }
